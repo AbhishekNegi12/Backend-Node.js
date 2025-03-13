@@ -16,6 +16,12 @@
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
 
+// need to add   "type": "module", in package.json as a part of Ecamascript
+// import {a} from "./mymodule.js"
+// console.log(a)
 
-import {a} from "./mymodule.js"
+// import obj from "./mymodule.js"
+// console.log(obj)
+
+const a = require("./mymodule2.js")
 console.log(a)
